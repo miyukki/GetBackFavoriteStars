@@ -6,8 +6,12 @@
   color: #FEAC33 !important;
 }
 
-.activity-type-favorite .Icon--heartBadge:before {
+.activity-type-favorite .Icon--heartBadge:before,
+.activity-type-favorited_retweet .Icon--heartBadge:before {
   margin-top: 3px;
+}
+
+.Icon--heartBadge:before {
   content: ' ' !important;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVlJREFUeNrEV9ENgjAQLY0DMAIjaBxA2cAPB9AJcAQ3MEwg/PtRJxAHMOAEMIITqHfm8ANbbAuUS5pCw93LPe5eW4+RPU/zJUwRjBUbxgSMmK9vGb54BLqB6cjc2BbAE48yvTC3FnKi17VFmPFrBGDGO/hmNKxsYulXQIGEVJg5TFNXGaeK58GBRYNyJ8AV0Fx9A6xvBa65AM7+MDAY8FmydjUNourjj662VPSjuQhxsLJ9mVjI9F8FHNZi3tVUkqyi+gAOQQ+gGONg8o+RthIc9x1A0bdUiYuOVle0lWUG1OIWG9gUl8xm1LNtoJhd3mc7Vf9ATcVEF9hEIESfwKmEVh+Hzre2wD80UwFhxeb0X43p5qbUAdCOBMGnys1pzYhunYPAvaaW2mSlEJwFtd2j9unaThgoIcBAo+cx241Ct636uPfDnhgBV/CW7W9Ii8e7wox1aXsLMADtbpJ11fV6fgAAAABJRU5ErkJggg==);
   background-size: 15px 15px;
